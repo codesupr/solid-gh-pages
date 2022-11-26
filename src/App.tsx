@@ -17,7 +17,7 @@ const App: Component = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Solid JS
+          Learn Solid JS
         </a>
       </header>
     </div>
