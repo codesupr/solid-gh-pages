@@ -3,12 +3,13 @@
 }
 
 .logo {
-  animation: logo-spin infinite 20s linear;
+  animation: logo-spin infinite 40s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
 .header {
+  margin-top: 8px;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -16,7 +17,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: wheat;
 }
 
 .link {
