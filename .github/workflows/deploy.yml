@@ -13,4 +13,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v3
       - name: Run deployment script
-        run: sh ../scripts/deploy.sh
+        run: |
+          chmod +x ../scripts/deploy.sh
+          ../scripts/deploy.sh
+        shell: bash
