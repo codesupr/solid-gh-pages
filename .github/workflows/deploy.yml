@@ -1,0 +1,16 @@
+name: Deploy to gh-pages
+
+on:
+  push:
+    branches: ["master"]
+    
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@latest
+      - name: Run deployment script
+        run: sh ../scripts/deploy.sh
