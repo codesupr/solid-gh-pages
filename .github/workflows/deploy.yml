@@ -13,5 +13,4 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v3
       - name: Run deployment script
-        run: |
-          ls -a
+        run: sh ./deploy.sh
