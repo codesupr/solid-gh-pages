@@ -1,15 +1,18 @@
 {
   "name": "solid-gh-pages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
+  "homepage": "https://codesupr.github.io/solid-gh-pages/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "serve": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "typescript": "^4.8.2",
     "vite": "^3.0.9",
     "vite-plugin-solid": "^2.3.0"
