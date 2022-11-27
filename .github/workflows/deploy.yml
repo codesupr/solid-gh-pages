@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@latest
+        uses: actions/checkout@v3
       - name: Run deployment script
         run: sh ../scripts/deploy.sh
