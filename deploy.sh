@@ -4,6 +4,7 @@
 set -e
 
 # build
+yarn
 yarn build
 
 # navigate into the build output directory
